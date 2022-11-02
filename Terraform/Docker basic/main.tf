@@ -23,14 +23,15 @@ module "nginx-pet" {
   source = "./nginx"
 
   container_name = "hello-${random_pet.dog.id}"
-  nginx_port = 8001
+  nginx_port     = 8001
 }
 
 module "hello" {
   source  = "joatmon08/hello/random"
-  version = "3.0.1"
+  version = "3.1.0"
 
-  hello = random_pet.dog.id
+  hello        = random_pet.dog.id
+  second_hello = random_pet.dog.id
 
-	secret_key = "secret"
+  secret_key = "secret"
 }
