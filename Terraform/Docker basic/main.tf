@@ -15,11 +15,10 @@ resource "docker_image" "nginx" {
 }
 
 resource "docker_container" "nginx" {
-  # image = docker_image.nginx.latest does not seem to be needed anymore.
-  image = docker_image.nginx
-  name  = "tutorial"
+  image = docker_image.nginx.latest
+  name  = var.container_name
   ports {
     internal = 80
-    external = 8000
+    external = 8080
   }
 }
