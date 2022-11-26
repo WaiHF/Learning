@@ -1,0 +1,11 @@
+Terraform/Docker basic/.terraform/modules/modules.json
+Terraform/Docker basic/.terraform/providers/registry.terraform.io/hashicorp/random/3.0.1/linux_amd64/terraform-provider-random_v3.0.1_x5
+Terraform/Docker basic/.terraform/providers/registry.terraform.io/kreuzwerker/docker/2.16.0/linux_amd64/CHANGELOG.md
+Terraform/Docker basic/.terraform/providers/registry.terraform.io/kreuzwerker/docker/2.16.0/linux_amd64/LICENSE
+Terraform/Docker basic/.terraform/providers/registry.terraform.io/kreuzwerker/docker/2.16.0/linux_amd64/README.md
+Terraform/Docker basic/.terraform/providers/registry.terraform.io/kreuzwerker/docker/2.16.0/linux_amd64/terraform-provider-docker_v2.16.0
+Terraform/Docker basic/.terraform.lock.hcl
+Terraform/Docker basic/terraform.tfstate
+Terraform/Docker basic/terraform.tfstate.backup
+Terraform/Docker basic/tfplan
+Terraform/Docker basic/tfplan.json
