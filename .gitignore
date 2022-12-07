@@ -9,3 +9,4 @@ Terraform/Docker basic/terraform.tfstate
 Terraform/Docker basic/terraform.tfstate.backup
 Terraform/Docker basic/tfplan
 Terraform/Docker basic/tfplan.json
+Terraform/Docker basic/terraform.tfvars
